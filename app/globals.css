@@ -19,8 +19,23 @@
   border-color: var(--border);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  transition: background-color 200ms ease, color 200ms ease;
+}
+
+::selection {
+  background: rgba(33, 79, 76, 0.18);
+}
+
+input:focus-visible,
+textarea:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid rgba(53, 124, 119, 0.45);
+  outline-offset: 2px;
 }
