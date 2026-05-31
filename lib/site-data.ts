@@ -52,6 +52,7 @@ type SiteData = {
     name: string;
     affiliation: string;
     role: string;
+    image: string;
   }[];
   newsPage: {
     title: string;
@@ -207,13 +208,55 @@ const trData: SiteData = {
       "Resmi kaynaktaki güncel temsilci listesi kurumsal formatta sunulmaktadır.",
   },
   cityRepresentatives: [
-    { city: "Antalya", name: "Murat Kederli", affiliation: "Burukan Aşireti", role: "Kanaat Önderi" },
-    { city: "Gaziantep", name: "Ali Filiz", affiliation: "", role: "Yazar" },
-    { city: "Şanlıurfa", name: "Zülfikar Emiroğlu", affiliation: "Emirler Aşireti", role: "" },
-    { city: "Erzurum", name: "Salih Aydın", affiliation: "Kurdka Aşireti", role: "Kanaat Önderi" },
-    { city: "Mersin", name: "Ersin Gürel Yıldırım", affiliation: "Ahıska Türkü", role: "Kanaat Önderi" },
-    { city: "Afyonkarahisar", name: "Dr. Özgür Kavak", affiliation: "", role: "" },
-    { city: "Siirt", name: "Mirza Tetik", affiliation: "Duderan Aşireti", role: "Lider" },
+    {
+      city: "Antalya",
+      name: "Murat Kederli",
+      affiliation: "Burukan Aşireti",
+      role: "Kanaat Önderi",
+      image: "/images/representatives/antalya-murat-kederli.jpeg",
+    },
+    {
+      city: "Gaziantep",
+      name: "Ali Filiz",
+      affiliation: "",
+      role: "Yazar",
+      image: "/images/representatives/gaziantep-ali-filiz.jpeg",
+    },
+    {
+      city: "Şanlıurfa",
+      name: "Zülfikar Emiroğlu",
+      affiliation: "Emirler Aşireti",
+      role: "",
+      image: "/images/representatives/sanliurfa-zulfikar-emiroglu.jpeg",
+    },
+    {
+      city: "Erzurum",
+      name: "Salih Aydın",
+      affiliation: "Kurdka Aşireti",
+      role: "Kanaat Önderi",
+      image: "/images/representatives/erzurum-salih-aydin.jpeg",
+    },
+    {
+      city: "Mersin",
+      name: "Ersin Gürel Yıldırım",
+      affiliation: "Ahıska Türkü",
+      role: "Kanaat Önderi",
+      image: "/images/representatives/mersin-ersin-gurel-yildirim.jpeg",
+    },
+    {
+      city: "Afyonkarahisar",
+      name: "Dr. Özgür Kavak",
+      affiliation: "",
+      role: "",
+      image: "/images/representatives/afyonkarahisar-ozgur-kavak.jpeg",
+    },
+    {
+      city: "Siirt",
+      name: "Mirza Tetik",
+      affiliation: "Duderan Aşireti",
+      role: "Lideri",
+      image: "/images/representatives/siirt-mirza-tetik.jpeg",
+    },
   ],
   newsPage: {
     title: "Güncel Gelişmeler",

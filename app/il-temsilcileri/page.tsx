@@ -34,7 +34,7 @@ export default async function CityRepresentativesPage({
             >
               <div className="relative h-64 w-full overflow-hidden">
                 <Image
-                  src="/images/representative-placeholder.svg"
+                  src={representative.image}
                   alt={`${representative.name} profil görseli`}
                   fill
                   className="object-cover object-top transition duration-500 group-hover:scale-105"
